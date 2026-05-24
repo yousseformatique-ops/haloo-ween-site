@@ -1,0 +1,335 @@
+{
+  "nav": {
+    "methode": "Méthode",
+    "services": "Services",
+    "tarifs": "Tarifs",
+    "promotions": "Promotions",
+    "contact": "Contact",
+    "devis": "Devis gratuit",
+    "rendezVous": "Prendre RDV"
+  },
+  "hero": {
+    "badge": "100 % écologique · Zéro pesticide",
+    "title": "Vapeur sèche 375°F.",
+    "titleAccent": "Insectes éliminés. Œufs compris.",
+    "subtitle": "Désinsectisation écologique à Montréal et Grand Montréal. Sécuritaire pour vos enfants, vos aînés et vos animaux.",
+    "ctaPrimary": "Demander un devis",
+    "ctaSecondary": "Comment ça marche"
+  },
+  "trust": {
+    "temp": "Vapeur sèche",
+    "chemical": "Produit chimique",
+    "visits": "Visites incluses",
+    "safe": "Sécuritaire"
+  },
+  "services": {
+    "title": "Nos spécialités",
+    "subtitle": "Trois types de clients, une même méthode infaillible",
+    "move": {
+      "title": "Pré-déménagement",
+      "desc": "On assainit votre nouveau logement avant que vous y entriez. Idéal pour les saisons de déménagement.",
+      "price": "À partir de 350 $"
+    },
+    "residential": {
+      "title": "Résidentiel",
+      "desc": "Punaises de lit, coquerelles, fourmis — éliminées dès le 1er passage.",
+      "price": "À partir de 300 $"
+    },
+    "senior": {
+      "title": "Résidences pour aînés",
+      "desc": "Contrats récurrents. Zéro odeur, zéro résidu toxique, zéro perturbation pour les résidents.",
+      "price": "Contrats annuels"
+    },
+    "learnMore": "En savoir plus"
+  },
+  "comparison": {
+    "title": "Vapeur sèche vs pesticides traditionnels",
+    "traditional": "Pesticides traditionnels",
+    "steam": "Vapeur sèche 375°F",
+    "tradItems": ["Les œufs survivent", "Produits toxiques", "3 à 4 traitements", "Évacuation requise", "Odeurs persistantes"],
+    "steamItems": ["Tue insectes ET œufs", "100 % eau, zéro chimique", "2 visites seulement", "Réintégration immédiate", "Sans odeur"]
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "subtitle": "Un processus simple, des résultats garantis",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Inspection gratuite",
+        "desc": "On évalue le niveau d'infestation et les zones à traiter. Devis transparent, sans surprise."
+      },
+      {
+        "num": "02",
+        "title": "Traitement vapeur sèche",
+        "desc": "Notre technicien applique la vapeur à 375°F sur toutes les surfaces infestées. Insectes et œufs éliminés en une seule visite."
+      },
+      {
+        "num": "03",
+        "title": "Visite de contrôle",
+        "desc": "Une visite de suivi incluse pour confirmer l'élimination complète. Garantie de résultat."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "items": [
+      {
+        "name": "Marie-Claude B.",
+        "location": "Rosemont, Montréal",
+        "text": "Après des mois à combattre les punaises de lit avec des méthodes traditionnelles, Haloo-Ween a réglé le problème en une seule visite. Aucune odeur, aucun produit chimique. Mes enfants ont pu dormir tranquilles le soir même.",
+        "service": "Résidentiel"
+      },
+      {
+        "name": "Jean-François L.",
+        "location": "Laval",
+        "text": "On a fait appel à eux avant notre déménagement dans un 4½. Le logement était impeccable à notre arrivée. Le technicien était professionnel et ponctuel. Je recommande à 100 %.",
+        "service": "Pré-déménagement"
+      },
+      {
+        "name": "Sylvie M., Directrice",
+        "location": "Résidence Le Boisé, Longueuil",
+        "text": "Nous avons un contrat annuel avec Haloo-Ween pour notre résidence pour aînés. Les interventions sont discrètes, sans odeur et sans produits toxiques — parfait pour nos résidents. Une équipe de confiance.",
+        "service": "Résidence pour aînés"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "La vapeur sèche est-elle vraiment efficace contre toutes les espèces ?",
+        "a": "Oui. La vapeur sèche à 375°F détruit les insectes adultes ainsi que leurs œufs, quelles que soient l'espèce (punaises, coquerelles, fourmis, acariens). La chaleur intense pénètre les fissures et les tissus que les pesticides n'atteignent pas."
+      },
+      {
+        "q": "Faut-il quitter le logement pendant le traitement ?",
+        "a": "Non. Contrairement aux pesticides chimiques, la vapeur sèche ne laisse aucun résidu toxique. Vous pouvez réintégrer les pièces traitées immédiatement après le passage du technicien."
+      },
+      {
+        "q": "Combien de temps dure un traitement ?",
+        "a": "En moyenne de 2 à 4 heures selon la superficie et le niveau d'infestation. Notre technicien vous donnera une estimation précise lors de l'inspection initiale."
+      },
+      {
+        "q": "Y a-t-il une garantie sur les résultats ?",
+        "a": "Oui. Nos forfaits incluent une visite de contrôle gratuite pour confirmer l'élimination complète. Si des insectes sont encore présents, nous revenons sans frais supplémentaires."
+      },
+      {
+        "q": "Quelle zone desservez-vous ?",
+        "a": "Nous couvrons Montréal, Laval, Longueuil, la Rive-Sud et la Rive-Nord. Contactez-nous pour confirmer la disponibilité dans votre secteur."
+      }
+    ]
+  },
+  "promoBanner": {
+    "label": "Offre limitée",
+    "reserve": "Réserver"
+  },
+  "footerCta": {
+    "title": "Déménagez l'esprit tranquille.",
+    "subtitle": "Réservations disponibles dès maintenant pour juin–juillet.",
+    "cta": "Prendre rendez-vous"
+  },
+  "footer": {
+    "tagline": "Désinsectisation écologique à la vapeur sèche 375°F. Montréal et Grand Montréal.",
+    "services": "Services",
+    "links": "Liens",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "serviceLinks": ["Pré-déménagement", "Résidentiel", "Résidences pour aînés"],
+    "pageLinks": ["Méthode", "Tarifs", "Promotions", "Contact"],
+    "address": "Montréal, Québec",
+    "phone": "514-XXX-XXXX",
+    "email": "contact@haloo-ween.ca"
+  },
+  "services_page": {
+    "title": "Nos services",
+    "subtitle": "La vapeur sèche 375°F pour chaque situation",
+    "move": {
+      "title": "Pré-déménagement",
+      "subtitle": "Commencez dans un logement sain",
+      "desc": "Avant d'emménager, laissez-nous assainir votre nouveau chez-vous. Notre traitement vapeur sèche élimine tout résidu d'infestation laissé par les anciens locataires : punaises, coquerelles, acariens et leurs œufs.",
+      "includes": ["Inspection complète du logement", "Traitement vapeur 375°F de toutes les pièces", "Visite de contrôle incluse", "Certificat de désinsectisation"],
+      "price": "À partir de 350 $"
+    },
+    "residential": {
+      "title": "Résidentiel",
+      "subtitle": "Maisons, appartements, condos",
+      "desc": "Vous constatez une infestation ? Punaises de lit, coquerelles, fourmis ou autres nuisibles — notre vapeur sèche les élimine dès le premier passage, sans produit chimique, sans odeur.",
+      "includes": ["Identification précise de l'infestation", "Traitement ciblé vapeur 375°F", "Zones difficiles d'accès traitées (plinthes, coutures, fissures)", "Visite de suivi garantie"],
+      "price": "À partir de 300 $"
+    },
+    "senior": {
+      "title": "Résidences pour aînés",
+      "subtitle": "Contrats récurrents, tranquillité d'esprit",
+      "desc": "Nous proposons des contrats de service annuels pour résidences pour aînés, CHSLD et ressources intermédiaires. Interventions planifiées, discrètes, sans produit toxique — idéales pour les environnements sensibles.",
+      "includes": ["Plan d'intervention personnalisé", "Visites régulières programmées", "Traitement sans évacuation des résidents", "Rapport d'intervention détaillé", "Interlocuteur dédié"],
+      "price": "Devis sur mesure"
+    },
+    "cta": "Demander un devis"
+  },
+  "methode_page": {
+    "title": "Notre méthode",
+    "subtitle": "La science derrière la vapeur sèche 375°F",
+    "intro": "La désinsectisation à la vapeur sèche est la méthode la plus efficace et la plus sécuritaire qui existe aujourd'hui. Voici pourquoi.",
+    "why": {
+      "title": "Pourquoi 375°F ?",
+      "desc": "À 375°F (190°C), la vapeur sèche détruit instantanément tout organisme vivant — larves, adultes, œufs. Aucun insecte ne résiste à cette température. Les pesticides chimiques, eux, ne touchent pas les œufs."
+    },
+    "dry": {
+      "title": "Pourquoi « sèche » ?",
+      "desc": "Contrairement à la vapeur d'eau ordinaire, la vapeur sèche contient moins de 5 % d'humidité. Elle pénètre les textiles, les fissures et les surfaces poreuses sans les mouiller, sans risque de moisissure."
+    },
+    "safe": {
+      "title": "Sécuritaire pour votre famille",
+      "desc": "Aucun produit chimique, aucun résidu. Après le traitement, les pièces sont immédiatement réutilisables. Sécuritaire pour les enfants, les aînés, les animaux de compagnie et les personnes allergiques."
+    },
+    "process": {
+      "title": "Le processus étape par étape",
+      "steps": [
+        { "title": "Prise de contact & devis", "desc": "Appelez-nous ou remplissez notre formulaire. Nous vous rappelons sous 24h avec une estimation." },
+        { "title": "Inspection sur place", "desc": "Un technicien certifié évalue l'infestation, identifie les espèces et détermine les zones à traiter." },
+        { "title": "Traitement vapeur sèche", "desc": "Application systématique sur toutes les surfaces : matelas, canapés, plinthes, fissures, électroménagers." },
+        { "title": "Rapport d'intervention", "desc": "Un rapport détaillé vous est remis à la fin du traitement." },
+        { "title": "Visite de contrôle", "desc": "Incluse dans tous nos forfaits, sous 2 à 3 semaines, pour confirmer l'élimination complète." }
+      ]
+    }
+  },
+  "tarifs_page": {
+    "title": "Tarifs",
+    "subtitle": "Des prix transparents, sans mauvaise surprise",
+    "note": "Les prix indiqués sont des points de départ. Le devis final est établi après inspection et tient compte de la superficie, du type d'infestation et du nombre de pièces.",
+    "packages": [
+      {
+        "name": "Studio / 3½",
+        "price": "300 $",
+        "desc": "Idéal pour les petits logements.",
+        "features": ["1 traitement vapeur sèche complet", "Visite de contrôle incluse", "Rapport d'intervention", "Garantie de résultat"]
+      },
+      {
+        "name": "4½ / 5½",
+        "price": "400 $",
+        "desc": "Le plus populaire.",
+        "features": ["1 traitement vapeur sèche complet", "Toutes les pièces traitées", "Visite de contrôle incluse", "Rapport d'intervention", "Garantie de résultat"],
+        "highlight": true
+      },
+      {
+        "name": "Maison / Grand espace",
+        "price": "550 $+",
+        "desc": "Sur devis selon superficie.",
+        "features": ["Traitement multi-étages", "Toutes les pièces traitées", "2 visites de contrôle", "Rapport d'intervention détaillé", "Garantie de résultat", "Suivi prioritaire"]
+      }
+    ],
+    "addons": {
+      "title": "Services additionnels",
+      "items": [
+        { "name": "Traitement préventif annuel", "price": "À partir de 150 $" },
+        { "name": "Certificat de désinsectisation", "price": "Inclus" },
+        { "name": "Traitement d'urgence (sous 24h)", "price": "+75 $" },
+        { "name": "Contrat résidence pour aînés", "price": "Sur devis" }
+      ]
+    },
+    "cta": "Obtenir un devis précis"
+  },
+  "devis_page": {
+    "title": "Demander un devis",
+    "subtitle": "Réponse sous 24 heures, devis gratuit et sans engagement",
+    "step1": {
+      "title": "Type de client",
+      "subtitle": "Qui êtes-vous ?",
+      "options": [
+        { "id": "residential", "label": "Résidentiel", "desc": "Maison, appartement, condo" },
+        { "id": "commercial", "label": "Commercial", "desc": "Bureau, commerce, immeuble" },
+        { "id": "senior", "label": "Résidence pour aînés", "desc": "CHSLD, résidence privée" }
+      ]
+    },
+    "step2": {
+      "title": "Type de problème",
+      "subtitle": "Quel est le nuisible à traiter ?",
+      "options": [
+        { "id": "bedbugs", "label": "Punaises de lit", "icon": "🛏️" },
+        { "id": "cockroaches", "label": "Coquerelles", "icon": "🪲" },
+        { "id": "ants", "label": "Fourmis", "icon": "🐜" },
+        { "id": "other", "label": "Autre / Je ne sais pas", "icon": "❓" }
+      ]
+    },
+    "step3": {
+      "title": "Superficie du logement",
+      "subtitle": "Quelle est la taille de l'espace à traiter ?",
+      "options": [
+        { "id": "studio", "label": "Studio / 2½", "desc": "Moins de 500 pi²" },
+        { "id": "3.5", "label": "3½", "desc": "500–700 pi²" },
+        { "id": "4.5", "label": "4½", "desc": "700–1000 pi²" },
+        { "id": "5.5", "label": "5½ et plus", "desc": "1000–1400 pi²" },
+        { "id": "house", "label": "Maison", "desc": "1400 pi² et plus" }
+      ]
+    },
+    "step4": {
+      "title": "Vos coordonnées",
+      "subtitle": "Comment vous rejoindre ?",
+      "name": "Nom complet",
+      "email": "Adresse courriel",
+      "phone": "Téléphone",
+      "address": "Adresse du logement à traiter",
+      "message": "Informations supplémentaires (facultatif)",
+      "submit": "Envoyer ma demande"
+    },
+    "step5": {
+      "title": "Demande reçue !",
+      "subtitle": "Nous vous contacterons sous 24 heures avec votre devis.",
+      "cta": "Retour à l'accueil"
+    },
+    "next": "Suivant",
+    "back": "Retour",
+    "progress": "Étape"
+  },
+  "rendezVous_page": {
+    "title": "Prendre rendez-vous",
+    "subtitle": "Choisissez votre date et heure, nous confirmons sous 2h.",
+    "selectDate": "Choisissez une date",
+    "selectTime": "Choisissez un créneau",
+    "yourInfo": "Vos informations",
+    "name": "Nom complet",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "address": "Adresse complète",
+    "service": "Service souhaité",
+    "serviceOptions": ["Résidentiel", "Pré-déménagement", "Résidence pour aînés", "Commercial"],
+    "notes": "Notes (facultatif)",
+    "submit": "Confirmer le rendez-vous",
+    "success": {
+      "title": "Rendez-vous confirmé !",
+      "subtitle": "Un courriel de confirmation vous a été envoyé.",
+      "cta": "Retour à l'accueil"
+    }
+  },
+  "contact_page": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Besoin d'un devis rapide ?",
+    "form": {
+      "name": "Nom complet",
+      "email": "Courriel",
+      "phone": "Téléphone (facultatif)",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer",
+      "success": "Message envoyé ! Nous vous répondrons sous 24h."
+    },
+    "info": {
+      "phone": "514-XXX-XXXX",
+      "email": "contact@haloo-ween.ca",
+      "address": "Montréal, Québec",
+      "hours": "Lundi–Samedi, 8h–18h"
+    }
+  },
+  "promotions_page": {
+    "title": "Promotions",
+    "subtitle": "Offres saisonnières et spéciales",
+    "noPromo": "Aucune promotion active pour le moment. Revenez bientôt !",
+    "expires": "Expire le",
+    "seeAll": "Voir toutes les promotions"
+  },
+  "chat": {
+    "title": "Assistant Haloo-Ween",
+    "placeholder": "Posez votre question...",
+    "welcome": "Bonjour ! Je suis l'assistant de Haloo-Ween. Comment puis-je vous aider ?",
+    "send": "Envoyer"
+  }
+}

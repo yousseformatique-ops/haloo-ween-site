@@ -1,0 +1,335 @@
+{
+  "nav": {
+    "methode": "Method",
+    "services": "Services",
+    "tarifs": "Pricing",
+    "promotions": "Promotions",
+    "contact": "Contact",
+    "devis": "Free Quote",
+    "rendezVous": "Book Now"
+  },
+  "hero": {
+    "badge": "100% Ecological · Zero Pesticide",
+    "title": "Dry Steam 375°F.",
+    "titleAccent": "Insects Eliminated. Eggs Included.",
+    "subtitle": "Ecological pest control in Montreal and Greater Montreal. Safe for your children, seniors, and pets.",
+    "ctaPrimary": "Request a Quote",
+    "ctaSecondary": "How It Works"
+  },
+  "trust": {
+    "temp": "Dry Steam",
+    "chemical": "Chemical Products",
+    "visits": "Visits Included",
+    "safe": "Safe"
+  },
+  "services": {
+    "title": "Our Specialties",
+    "subtitle": "Three types of clients, one foolproof method",
+    "move": {
+      "title": "Pre-Move Treatment",
+      "desc": "We sanitize your new home before you move in. Perfect for the moving season.",
+      "price": "Starting at $350"
+    },
+    "residential": {
+      "title": "Residential",
+      "desc": "Bed bugs, cockroaches, ants — eliminated from the very first treatment.",
+      "price": "Starting at $300"
+    },
+    "senior": {
+      "title": "Senior Residences",
+      "desc": "Recurring contracts. Zero odor, zero toxic residue, zero disruption.",
+      "price": "Annual contracts"
+    },
+    "learnMore": "Learn more"
+  },
+  "comparison": {
+    "title": "Dry Steam vs Traditional Pesticides",
+    "traditional": "Traditional Pesticides",
+    "steam": "Dry Steam 375°F",
+    "tradItems": ["Eggs survive", "Toxic products", "3 to 4 treatments", "Evacuation required", "Persistent odors"],
+    "steamItems": ["Kills insects AND eggs", "100% water, zero chemical", "Only 2 visits", "Immediate re-entry", "Odor-free"]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "A simple process, guaranteed results",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Free Inspection",
+        "desc": "We assess the infestation level and areas to treat. Transparent quote, no surprises."
+      },
+      {
+        "num": "02",
+        "title": "Dry Steam Treatment",
+        "desc": "Our technician applies 375°F steam to all infested surfaces. Insects and eggs eliminated in one visit."
+      },
+      {
+        "num": "03",
+        "title": "Follow-up Visit",
+        "desc": "An included follow-up visit to confirm complete elimination. Result guaranteed."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "items": [
+      {
+        "name": "Marie-Claude B.",
+        "location": "Rosemont, Montreal",
+        "text": "After months fighting bed bugs with traditional methods, Haloo-Ween solved the problem in one visit. No odor, no chemicals. My kids slept peacefully that very night.",
+        "service": "Residential"
+      },
+      {
+        "name": "Jean-François L.",
+        "location": "Laval",
+        "text": "We called them before moving into a 4½. The apartment was spotless when we arrived. The technician was professional and punctual. 100% recommend.",
+        "service": "Pre-Move"
+      },
+      {
+        "name": "Sylvie M., Director",
+        "location": "Résidence Le Boisé, Longueuil",
+        "text": "We have an annual contract with Haloo-Ween for our senior residence. Treatments are discreet, odor-free, and chemical-free — perfect for our residents. A team we trust.",
+        "service": "Senior Residence"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Is dry steam really effective against all species?",
+        "a": "Yes. Dry steam at 375°F instantly destroys all living organisms — larvae, adults, eggs — regardless of species (bed bugs, cockroaches, ants, mites). The intense heat penetrates cracks and fabrics that pesticides cannot reach."
+      },
+      {
+        "q": "Do we need to leave the home during treatment?",
+        "a": "No. Unlike chemical pesticides, dry steam leaves no toxic residue. You can re-enter treated rooms immediately after the technician's visit."
+      },
+      {
+        "q": "How long does a treatment take?",
+        "a": "On average 2 to 4 hours depending on the size and infestation level. Our technician will give you a precise estimate during the initial inspection."
+      },
+      {
+        "q": "Is there a guarantee on results?",
+        "a": "Yes. Our packages include a free follow-up visit to confirm complete elimination. If insects are still present, we return at no extra charge."
+      },
+      {
+        "q": "What area do you serve?",
+        "a": "We cover Montreal, Laval, Longueuil, the South Shore, and the North Shore. Contact us to confirm availability in your area."
+      }
+    ]
+  },
+  "promoBanner": {
+    "label": "Limited Offer",
+    "reserve": "Book"
+  },
+  "footerCta": {
+    "title": "Move with peace of mind.",
+    "subtitle": "Bookings available now for June–July.",
+    "cta": "Book an appointment"
+  },
+  "footer": {
+    "tagline": "Ecological pest control with 375°F dry steam. Montreal and Greater Montreal.",
+    "services": "Services",
+    "links": "Links",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "serviceLinks": ["Pre-Move", "Residential", "Senior Residences"],
+    "pageLinks": ["Method", "Pricing", "Promotions", "Contact"],
+    "address": "Montreal, Quebec",
+    "phone": "514-XXX-XXXX",
+    "email": "contact@haloo-ween.ca"
+  },
+  "services_page": {
+    "title": "Our Services",
+    "subtitle": "375°F dry steam for every situation",
+    "move": {
+      "title": "Pre-Move Treatment",
+      "subtitle": "Start in a healthy home",
+      "desc": "Before moving in, let us sanitize your new home. Our dry steam treatment eliminates any infestation left by previous tenants: bed bugs, cockroaches, mites, and their eggs.",
+      "includes": ["Complete apartment inspection", "375°F steam treatment of all rooms", "Follow-up visit included", "Pest control certificate"],
+      "price": "Starting at $350"
+    },
+    "residential": {
+      "title": "Residential",
+      "subtitle": "Houses, apartments, condos",
+      "desc": "Noticing an infestation? Bed bugs, cockroaches, ants — our dry steam eliminates them on the first pass, no chemicals, no odors.",
+      "includes": ["Precise infestation identification", "Targeted 375°F steam treatment", "Hard-to-reach areas treated (baseboards, seams, cracks)", "Guaranteed follow-up visit"],
+      "price": "Starting at $300"
+    },
+    "senior": {
+      "title": "Senior Residences",
+      "subtitle": "Recurring contracts, peace of mind",
+      "desc": "We offer annual service contracts for senior residences, long-term care facilities, and intermediate resources. Scheduled, discreet, chemical-free — ideal for sensitive environments.",
+      "includes": ["Customized intervention plan", "Regularly scheduled visits", "Treatment without evacuating residents", "Detailed intervention report", "Dedicated contact person"],
+      "price": "Custom quote"
+    },
+    "cta": "Request a Quote"
+  },
+  "methode_page": {
+    "title": "Our Method",
+    "subtitle": "The science behind 375°F dry steam",
+    "intro": "Dry steam pest control is the most effective and safe method available today. Here's why.",
+    "why": {
+      "title": "Why 375°F?",
+      "desc": "At 375°F (190°C), dry steam instantly destroys all living organisms — larvae, adults, eggs. No insect can survive this temperature. Chemical pesticides, on the other hand, do not affect eggs."
+    },
+    "dry": {
+      "title": "Why 'dry'?",
+      "desc": "Unlike ordinary steam, dry steam contains less than 5% moisture. It penetrates fabrics, cracks, and porous surfaces without wetting them, with no risk of mold."
+    },
+    "safe": {
+      "title": "Safe for your family",
+      "desc": "No chemicals, no residue. After treatment, rooms are immediately usable. Safe for children, seniors, pets, and allergy sufferers."
+    },
+    "process": {
+      "title": "Step by step process",
+      "steps": [
+        { "title": "Contact & Quote", "desc": "Call us or fill out our form. We call back within 24h with an estimate." },
+        { "title": "On-site Inspection", "desc": "A certified technician assesses the infestation, identifies species, and determines treatment zones." },
+        { "title": "Dry Steam Treatment", "desc": "Systematic application on all surfaces: mattresses, sofas, baseboards, cracks, appliances." },
+        { "title": "Intervention Report", "desc": "A detailed report is provided at the end of treatment." },
+        { "title": "Follow-up Visit", "desc": "Included in all packages, within 2–3 weeks, to confirm complete elimination." }
+      ]
+    }
+  },
+  "tarifs_page": {
+    "title": "Pricing",
+    "subtitle": "Transparent prices, no surprises",
+    "note": "Prices shown are starting points. The final quote is established after inspection and accounts for size, infestation type, and number of rooms.",
+    "packages": [
+      {
+        "name": "Studio / 1-Bedroom",
+        "price": "$300",
+        "desc": "Ideal for small apartments.",
+        "features": ["1 complete dry steam treatment", "Follow-up visit included", "Intervention report", "Result guarantee"]
+      },
+      {
+        "name": "2–3 Bedrooms",
+        "price": "$400",
+        "desc": "Our most popular package.",
+        "features": ["1 complete dry steam treatment", "All rooms treated", "Follow-up visit included", "Intervention report", "Result guarantee"],
+        "highlight": true
+      },
+      {
+        "name": "House / Large Space",
+        "price": "$550+",
+        "desc": "Quoted by size.",
+        "features": ["Multi-level treatment", "All rooms treated", "2 follow-up visits", "Detailed intervention report", "Result guarantee", "Priority follow-up"]
+      }
+    ],
+    "addons": {
+      "title": "Additional Services",
+      "items": [
+        { "name": "Annual preventive treatment", "price": "Starting at $150" },
+        { "name": "Pest control certificate", "price": "Included" },
+        { "name": "Emergency treatment (within 24h)", "price": "+$75" },
+        { "name": "Senior residence contract", "price": "Custom quote" }
+      ]
+    },
+    "cta": "Get an Accurate Quote"
+  },
+  "devis_page": {
+    "title": "Request a Quote",
+    "subtitle": "Response within 24 hours, free and no commitment",
+    "step1": {
+      "title": "Client Type",
+      "subtitle": "Who are you?",
+      "options": [
+        { "id": "residential", "label": "Residential", "desc": "House, apartment, condo" },
+        { "id": "commercial", "label": "Commercial", "desc": "Office, store, building" },
+        { "id": "senior", "label": "Senior Residence", "desc": "Care facility, private residence" }
+      ]
+    },
+    "step2": {
+      "title": "Problem Type",
+      "subtitle": "What pest needs treatment?",
+      "options": [
+        { "id": "bedbugs", "label": "Bed Bugs", "icon": "🛏️" },
+        { "id": "cockroaches", "label": "Cockroaches", "icon": "🪲" },
+        { "id": "ants", "label": "Ants", "icon": "🐜" },
+        { "id": "other", "label": "Other / Not Sure", "icon": "❓" }
+      ]
+    },
+    "step3": {
+      "title": "Space Size",
+      "subtitle": "How large is the area to treat?",
+      "options": [
+        { "id": "studio", "label": "Studio / Bachelor", "desc": "Under 500 sq ft" },
+        { "id": "3.5", "label": "1 Bedroom", "desc": "500–700 sq ft" },
+        { "id": "4.5", "label": "2 Bedrooms", "desc": "700–1000 sq ft" },
+        { "id": "5.5", "label": "3+ Bedrooms", "desc": "1000–1400 sq ft" },
+        { "id": "house", "label": "House", "desc": "1400+ sq ft" }
+      ]
+    },
+    "step4": {
+      "title": "Your Contact Info",
+      "subtitle": "How can we reach you?",
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "address": "Address of the property",
+      "message": "Additional information (optional)",
+      "submit": "Send my request"
+    },
+    "step5": {
+      "title": "Request Received!",
+      "subtitle": "We'll contact you within 24 hours with your quote.",
+      "cta": "Back to Home"
+    },
+    "next": "Next",
+    "back": "Back",
+    "progress": "Step"
+  },
+  "rendezVous_page": {
+    "title": "Book an Appointment",
+    "subtitle": "Choose your date and time, we confirm within 2 hours.",
+    "selectDate": "Choose a date",
+    "selectTime": "Choose a time slot",
+    "yourInfo": "Your information",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Full address",
+    "service": "Desired service",
+    "serviceOptions": ["Residential", "Pre-Move", "Senior Residence", "Commercial"],
+    "notes": "Notes (optional)",
+    "submit": "Confirm Appointment",
+    "success": {
+      "title": "Appointment Confirmed!",
+      "subtitle": "A confirmation email has been sent to you.",
+      "cta": "Back to Home"
+    }
+  },
+  "contact_page": {
+    "title": "Contact Us",
+    "subtitle": "A question? Need a quick quote?",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send",
+      "success": "Message sent! We'll reply within 24 hours."
+    },
+    "info": {
+      "phone": "514-XXX-XXXX",
+      "email": "contact@haloo-ween.ca",
+      "address": "Montreal, Quebec",
+      "hours": "Monday–Saturday, 8am–6pm"
+    }
+  },
+  "promotions_page": {
+    "title": "Promotions",
+    "subtitle": "Seasonal and special offers",
+    "noPromo": "No active promotions at the moment. Check back soon!",
+    "expires": "Expires",
+    "seeAll": "See all promotions"
+  },
+  "chat": {
+    "title": "Haloo-Ween Assistant",
+    "placeholder": "Ask a question...",
+    "welcome": "Hello! I'm the Haloo-Ween assistant. How can I help you?",
+    "send": "Send"
+  }
+}
