@@ -1,7 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { NextRequest } from 'next/server';
-
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+import { NextRequest, NextResponse } from 'next/server';
 
 const SYSTEM_PROMPT = `Tu es l'assistant virtuel de Haloo-Ween, une entreprise de désinsectisation écologique à la vapeur sèche 375°F à Montréal.
 
@@ -25,52 +23,30 @@ INSTRUCTIONS:
 - Réponds dans la langue de l'utilisateur (français ou anglais)
 - Sois chaleureux, professionnel et concis (max 3-4 phrases par réponse)
 - Guide les clients vers /devis pour un devis ou /rendez-vous pour prendre RDV
-- Pour les questions de prix complexes, recommande le formulaire de devis
-- Ne donne jamais de prix définitifs — toujours dire "à partir de" ou recommander le devis en ligne
-- Si le client demande un RDV ou devis, dis-lui d'utiliser les formulaires sur le site`;
+- Ne donne jamais de prix définitifs — toujours dire "à partir de" ou recommander le devis en ligne`;
 
 export async function POST(req: NextRequest) {
   if (!process.env.ANTHROPIC_API_KEY) {
-    return new Response('ANTHROPIC_API_KEY manquante', { status: 500 });
+    return NextResponse.json({ error: 'API key manquante' }, { status: 500 });
   }
 
   try {
     const { messages } = await req.json();
 
-    const stream = client.messages.stream({
+    const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+
+    const response = await client.messages.create({
       model: 'claude-haiku-4-5-20251001',
       max_tokens: 400,
       system: SYSTEM_PROMPT,
       messages,
     });
 
-    const readable = new ReadableStream({
-      async start(controller) {
-        try {
-          for await (const chunk of stream) {
-            if (
-              chunk.type === 'content_block_delta' &&
-              chunk.delta.type === 'text_delta'
-            ) {
-              controller.enqueue(new TextEncoder().encode(chunk.delta.text));
-            }
-          }
-        } catch (err) {
-          console.error('Stream error:', err);
-        } finally {
-          controller.close();
-        }
-      },
-    });
+    const text = response.content[0].type === 'text' ? response.content[0].text : '';
 
-    return new Response(readable, {
-      headers: {
-        'Content-Type': 'text/plain; charset=utf-8',
-        'Transfer-Encoding': 'chunked',
-      },
-    });
+    return NextResponse.json({ text });
   } catch (err) {
     console.error('Chat API error:', err);
-    return new Response('Erreur serveur', { status: 500 });
+    return NextResponse.json({ error: String(err) }, { status: 500 });
   }
 }

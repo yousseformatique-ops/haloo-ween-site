@@ -47,27 +47,14 @@ export default function ChatWidget({ locale }: ChatWidgetProps) {
         body: JSON.stringify({ messages: newMessages.map((m) => ({ role: m.role, content: m.content })) }),
       });
 
-      if (!res.ok || !res.body) {
+      if (!res.ok) {
         setMessages([...newMessages, { role: 'assistant', content: errorMsg }]);
         return;
       }
 
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let assistantText = '';
-
-      setMessages([...newMessages, { role: 'assistant', content: '' }]);
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        assistantText += decoder.decode(value, { stream: true });
-        setMessages([...newMessages, { role: 'assistant', content: assistantText }]);
-      }
-
-      if (!assistantText) {
-        setMessages([...newMessages, { role: 'assistant', content: errorMsg }]);
-      }
+      const data = await res.json();
+      const assistantText = data.text || errorMsg;
+      setMessages([...newMessages, { role: 'assistant', content: assistantText }]);
     } catch {
       setMessages([...newMessages, { role: 'assistant', content: errorMsg }]);
     } finally {
