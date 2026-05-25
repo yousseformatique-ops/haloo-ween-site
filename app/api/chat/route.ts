@@ -30,33 +30,47 @@ INSTRUCTIONS:
 - Si le client demande un RDV ou devis, dis-lui d'utiliser les formulaires sur le site`;
 
 export async function POST(req: NextRequest) {
-  const { messages } = await req.json();
+  if (!process.env.ANTHROPIC_API_KEY) {
+    return new Response('ANTHROPIC_API_KEY manquante', { status: 500 });
+  }
 
-  const stream = client.messages.stream({
-    model: 'claude-haiku-4-5-20251001',
-    max_tokens: 400,
-    system: SYSTEM_PROMPT,
-    messages,
-  });
+  try {
+    const { messages } = await req.json();
 
-  const readable = new ReadableStream({
-    async start(controller) {
-      for await (const chunk of stream) {
-        if (
-          chunk.type === 'content_block_delta' &&
-          chunk.delta.type === 'text_delta'
-        ) {
-          controller.enqueue(new TextEncoder().encode(chunk.delta.text));
+    const stream = client.messages.stream({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 400,
+      system: SYSTEM_PROMPT,
+      messages,
+    });
+
+    const readable = new ReadableStream({
+      async start(controller) {
+        try {
+          for await (const chunk of stream) {
+            if (
+              chunk.type === 'content_block_delta' &&
+              chunk.delta.type === 'text_delta'
+            ) {
+              controller.enqueue(new TextEncoder().encode(chunk.delta.text));
+            }
+          }
+        } catch (err) {
+          console.error('Stream error:', err);
+        } finally {
+          controller.close();
         }
-      }
-      controller.close();
-    },
-  });
+      },
+    });
 
-  return new Response(readable, {
-    headers: {
-      'Content-Type': 'text/plain; charset=utf-8',
-      'Transfer-Encoding': 'chunked',
-    },
-  });
+    return new Response(readable, {
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8',
+        'Transfer-Encoding': 'chunked',
+      },
+    });
+  } catch (err) {
+    console.error('Chat API error:', err);
+    return new Response('Erreur serveur', { status: 500 });
+  }
 }
