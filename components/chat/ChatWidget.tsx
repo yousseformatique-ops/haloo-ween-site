@@ -36,6 +36,10 @@ export default function ChatWidget({ locale }: ChatWidgetProps) {
     setInput('');
     setLoading(true);
 
+    const errorMsg = locale === 'fr'
+      ? 'Désolé, je rencontre une erreur. Contactez-nous à contact@haloo-ween.ca'
+      : 'Sorry, I encountered an error. Contact us at contact@haloo-ween.ca';
+
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
@@ -43,7 +47,10 @@ export default function ChatWidget({ locale }: ChatWidgetProps) {
         body: JSON.stringify({ messages: newMessages.map((m) => ({ role: m.role, content: m.content })) }),
       });
 
-      if (!res.body) return;
+      if (!res.ok || !res.body) {
+        setMessages([...newMessages, { role: 'assistant', content: errorMsg }]);
+        return;
+      }
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
@@ -57,13 +64,12 @@ export default function ChatWidget({ locale }: ChatWidgetProps) {
         assistantText += decoder.decode(value, { stream: true });
         setMessages([...newMessages, { role: 'assistant', content: assistantText }]);
       }
+
+      if (!assistantText) {
+        setMessages([...newMessages, { role: 'assistant', content: errorMsg }]);
+      }
     } catch {
-      setMessages([...newMessages, {
-        role: 'assistant',
-        content: locale === 'fr'
-          ? 'Désolé, je rencontre une erreur. Contactez-nous à contact@haloo-ween.ca'
-          : 'Sorry, I encountered an error. Contact us at contact@haloo-ween.ca',
-      }]);
+      setMessages([...newMessages, { role: 'assistant', content: errorMsg }]);
     } finally {
       setLoading(false);
     }
